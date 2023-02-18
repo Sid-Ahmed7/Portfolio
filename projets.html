@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang ="fr">
+     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Projets</title>
+        <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" type = text/css href="projet.css">
+ 
+</head>
+<body>
+  
+    <nav class="navbar">
+        <a href="Profil.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="index.html">Accueil</a></li>
+                <li><a href="Profil.html">Profil</a></li>
+                <li><a href="certification.html">Certifications</a></li>
+                <li><a href="parcours.html">Mon Parcours</a></li>
+                <li> <a href="projets.html">Mes Projets</a></li>
+                <li><a href="Veille.html">Veille Technologique</a></li>
+                
+              </ul>
+        </div>
+        <img src="./images/menu-btn.png" alt="menu hamb" class="menu-hamb">
+      
+      </nav>
+
+<header id="welcome-section">
+    <h1>Mes Projets</h1>
+</header>
+
+<!----Projets-->
+
+<section id="projects">
+    <div class="container">
+        <h2 class="orange-title"> Projet HTML / CSS  / PHP </h2>
+        <article>
+            <a href="./projet1.html">
+                <div class="project-tile" id='thrice'>
+                    <img src="./images/offices-g610348f07_1280.jpg" />
+                    <div class="card-info">
+                        <p>Projet Gestion des équipements</p>
+                    </div>
+                </div>
+            </a>
+            
+         
+        </article>
+        <h2 class="orange-title"> Projet C / C++</h2>
+        <article>
+            <a href="./projet2.html">
+                <div class="project-tile" id='thrice'>
+                    <img src="./images/bees-gcbc52958e_1920.jpg" />
+                    <div class="card-info">
+                        <p>Projet Ruche connectée</p>
+                    </div>
+                </div>
+            </a>
+            
+
+        </article>
+</div>
+</section>
+<footer>
+    <div class="footer-bottom">
+      <ul class="socials">
+        <li><a href="mailto:moussisidahmed0@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sid-ahmed-moussi-722b61238/"><i class="fa fa-linkedin-square"></i></i></a></li>
+      </ul>
+      <div class="footer-nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+          <li><a href="Profil.html">Profil</a></li>
+          <li><a href="certification.html">Certifications</a></li>
+          <li><a href="parcours.html">Mon parcours</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="Veille.html">Veille technologique</a></li>
+          
+          
+    
+        </ul>
+      </div>
+      <div class="chevron">
+        <ul>
+            
+            <li><a href=""><i class="fa fa-chevron-down"></i></a></li>
+            
+        </ul>
+    </div>
+      <p>&copy;2023 <span>Moussi Sid-Ahmed</span></p>
+    </div>
+    </footer>
+</body>
+<script>
+    var menuhamb = document.querySelector('.menu-hamb');
+   var link = document.querySelector('.nav-links');
+   menuhamb.addEventListener('click', () => {
+     link.classList.toggle('mobile');
+   })
+   </script>
+</html>

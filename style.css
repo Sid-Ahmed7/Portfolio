@@ -1,0 +1,63 @@
+*{
+  padding:0px;
+  margin:0px;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar{
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
+}
+.container{
+  display: flex;
+  justify-content:space-between ;
+  padding: 20px 30px;
+}
+.navbar .container .menu-container li{
+  display: inline-block;
+}
+.navbar .container a{
+ color:white;
+}
+.navbar .container .menu-container ul{
+  padding: 3px 10px;
+}
+.navbar .container .menu-container li{
+  margin-left: 5px;
+}
+.menu-container a:hover{
+  color:orange;
+  transition: 0.8s;
+
+}
+
+.container .logo-container span{
+  color:black;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container .logo-container a{
+  
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+.section1{
+  height: 500px;
+  background-image: url("./background acceuil.jpg");
+  
+}
+.container2{
+  padding:auto;
+  margin: auto;
+}
+.section1 .container2{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.section1 .container2 .txt1{
+  font-size: 35px;
+  
+}

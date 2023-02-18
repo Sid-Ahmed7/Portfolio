@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang ="fr">
+     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ruche connnectée</title>
+        <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" type = text/css href="projet2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+ 
+</head>
+<body>
+  
+  <nav class="navbar">
+    <a href="Profil.html" class="logo">PORTFOLIO</a>
+    <div class="nav-links">
+      <ul>
+        <li class="active"><a href="index.html">Accueil</a></li>
+        <li><a href="Profil.html">Profil</a></li>
+        <li><a href="certification.html">Certifications</a></li>
+        <li><a href="parcours.html">Mon Parcours</a></li>
+        <li> <a href="projets.html">Mes Projets</a></li>
+        <li><a href="Veille.html">Veille Technologique</a></li>
+        
+      </ul>
+    </div>
+    <img src="./images/menu-btn.png" alt="menu hamb" class="menu-hamb">
+  </nav>
+
+<header id="welcome-section">
+    <h1>Projet Ruche connnectée</h1>
+</header>
+
+<div class="header">
+    <h1>Contexe</h1>
+    </div>
+
+    <section id="about">
+        <p>Durant notre projet de fin d'année de BTS, notre groupe de trois étudiants avait pour objectif d'aider un apiculteur à installer 
+          un système personnalisé pour surveiller à distance ses ruches et stocker les informations pertinentes en fonction de leur environnement. 
+          Nous avons travaillé sur ce projet durant 6 mois.
+        </p>
+        </section>
+
+        <div class="header">
+            <h1>Expression du Besoin</h1>
+            </div>
+      
+            
+    <section id="about">
+        <p>
+          Afin de surveiller efficacement la production de miel, l'apiculteur a besoin d'un relevé horaire contenant plusieurs paramètres. Il souhaite être informé de la température et de l'humidité extérieures du rucher, de la géolocalisation précise du rucher, de la masse de chaque ruche, ainsi que de la température intérieure de chacune d'entre elles. Pour cela, les ruches doivent être en mesure de communiquer entre elles via un réseau hertzien de 2,4GHz et d'envoyer ces informations à une centrale située dans l'enceinte du rucher. Cette 
+          centrale transmettra ensuite les données via un réseau WIFI à des serveurs distants, permettant ainsi à l'apiculteur de les consulter à distance via le web. Enfin, pour être alerté en cas de vol ou de risque d'essaimage, l'apiculteur souhaite recevoir une notification par e-mail. A cet effet, un serveur de messagerie sera installé dans la centrale du rucher.
+        </p>
+        </section>
+
+        <div class="header">
+            <h1>Répartition des tâches</h1>
+            </div>
+
+        <section id="about">
+            <p>
+              Le projet a été réalisé en groupe de trois personnes. Un membre du groupe s'est occupé de l'acquisition de l'information concernant la masse et la température intérieure de la ruche, ainsi que de leur transmission à la centrale du rucher. De mon côté, j'ai été en charge de l'acquisition des informations relatives à la position du rucher, au taux d'humidité et à la température extérieure, que j'ai ensuite transmises sous forme de trame. Enfin, le troisième membre du groupe s'est chargé du décodage de la trame reçue par la centrale, ainsi que de la création de la base de données et du site internet.
+                 
+            </p>
+            </section>
+
+<!----Outils---->
+<div class="inner">
+
+    <div class="sub-header">
+  <h1> Langage de Programmation & Outil</h1>
+  </div>
+
+  <div class="container">
+    <div class="skill-box">
+      <div class="skill-title">
+        <div class="picture">
+          <img src="./images/LangagesP/c.png" class ="skill-icon">
+        </div>
+        <h3>Langage C</h3>
+      </div>
+    </div>
+    <div class="skill-box">
+        <div class="skill-title">
+          <div class="picture">
+            <img src="./images/Logiciels/arduino.png" class ="skill-icon">
+          </div>
+          <h3>Arduino</h3>
+        </div>
+      </div>
+     
+    </div>
+    </div>
+
+    <div class="inner">
+
+      <div class="sub-header">
+    <h1> Équipements</h1>
+    </div>
+  
+    <div class="container-equip">
+      <div class="skill-box">
+        <div class="skill-title">
+          <div class="picture">
+            <img src="./images/Equipements/raspberry.png" class ="skill-icon-equip">
+          </div>
+          <h3>Raspberry Pi</h3>
+        </div>
+      </div>
+      <div class="skill-box">
+          <div class="skill-title">
+            <div class="picture">
+              <img src="./images/Equipements/sht31.png" class ="skill-icon-equip">
+            </div>
+            <h3>Capteur d'humidité et de température (SHT31)</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="picture">
+              <img src="./images/Equipements/Module-Groove.png" class ="skill-icon-equip">
+            </div>
+            <h3>Module Groove</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="picture">
+              <img src="./images/Equipements/GPS.png" class ="skill-icon-equip">
+            </div>
+            <h3>Récepteur GPS USB G-Star IV </h3>
+          </div>
+        </div>
+       
+        
+      </div>
+      </div>
+
+    <div class="header">
+      <h1>Réalisation</h1>
+      </div>
+
+<section class ="images">
+
+    <div class="image-card">
+        <div class="image-left">
+            <img alt="" src="./images/Projet2/tempethum.jpg">
+            </div>
+        <div class="image-right">    
+            <h1>Acquérir la température et le taux d'humidité</h1>
+            <p>J'ai utilisé le bus I2C pour récupérer les données du capteur. Pour ce faire, j'ai dû d'abord obtenir l'accès au protocole de communication (dev/i2c-1) puis utiliser la fonction ioctl() pour fixer l'adresse de l'esclave avec lequel je devais communiquer (SHT31 = 0x44). Ensuite, j'ai converti les données transmises par le capteur. Une fois le programme terminé, j'ai exécuté celui-ci sur la Raspberry Pi et j'ai obtenu une trame contenant les valeurs de la température en degrés Celsius (cTemp) et du taux d'humidité en pourcentage (humidity).
+            </p>
+        </div>
+    </div>
+    
+    <div class="image-card">
+        <div class="image-left">
+            <img alt="" src="./images/Projet2/gpgga.jpg">
+            </div>
+        <div class="image-right">    
+            <h1>Géolocalisation</h1>
+            <p>Pour obtenir les données GPS d'un ou plusieurs ruchers, j'ai d'abord dû déterminer le port (/ttyUSB0) sur lequel se trouve le récepteur GPS. Une fois le port identifié, j'ai ouvert le fichier '/dev/ttyUSB0' en mode lecture à l'aide de la fonction de bas niveau open(). Ce fichier contient toutes les trames GPS fournies par le récepteur. J'ai ainsi pu extraire toutes les trames de type GPGGA (trame NMEA) avec les différents champs tels que la latitude et la longitude. De plus, j'ai converti les données obtenues en format Google Maps, afin de permettre à l'apiculteur de visualiser plus rapidement l'emplacement de ses ruchers
+            </p>
+        </div>
+    </div>
+    
+  
+    <div class="image-card">
+      <div class="image-left">
+          <img alt="" src="./images/Projet2/SCP.png">
+          </div>
+      <div class="image-right">    
+          <h1>Transmission de la trame</h1>
+          <p>
+            J'ai utilisé le protocole SCP (Secure Copy) pour transférer les informations du rucher telles que la localisation, la température et l'humidité, ainsi que les données en provennace des ruches telles que la température et la masse vers le serveur de données. Pour ce faire, j'ai spécifié le fichier à transmettre, le destinataire (192.168.0.102) et le dossier de destination dans lequel le fichier sera stocké.
+          </p>
+      </div>
+  </div>
+
+  <div class="image-card">
+    <div class="image-left">
+        <img alt="" src="./images/Projet2/Capture cron.JPG">
+        </div>
+    <div class="image-right">    
+        <h1>Automatisation des programmes</h1>
+        <p>
+          D'après le cahier des charges qui nous a été imposé, l'apiculteur doit pouvoir effectuer chaque minute un relevé de données et doit également les 
+          transmmettre toutes les heures à un serveur de données. Pour répondre à cette exigence, j'ai décidé d'utiliser le planificateur de tâches CRON. Tout d'abord, j'ai planifié via la commande "crontab" 
+          la durée à laquelle le programme s'effectura ( * * * * * /home/pi/PROGS /dev/ttyUSB0 : notre programme est planifié pour s’exécuter toutes les minutes de chaque jour de chaque mois)
+          et enfin j'ai planifié la commande scp pour qu'elle s'exécute toutes les heures (00 */1 * * * sshpass -p "raspberry" scp donnees.txt pi 192.168.0.102:home/pi : la commande SCP est planifiée pour s'exécuter toutes les heures, permettant ainsi à la Raspberry contenant la base de données de recevoir toutes les heures le fichier contenant les données du rucher et des ruches)
+
+        </p>
+    </div>
+</div>
+    
+</section>
+
+<div class="header">
+  <h1>Bilan</h1>
+  </div>
+
+<section id="about">
+  <p>
+    Ce projet que j'ai réalisé en deuxième année de BTS Systèmes Numériques m'a permis de mettre en pratique les compétences 
+    et connaissances que j'ai acquis tout au long de mes études. Cela a également mis en évidence l'importance du travail d'équipe dans la réussite 
+    d'un projet et m'a permis de prendre conscience des difficultés et des contraintes qui sont inhérentes à la conception d'un proet. En somme, 
+    ce projet a été une expérience très formateur pour moi.
+  </p>
+  </section>
+  <footer>
+    <div class="footer-bottom">
+      <ul class="socials">
+        <li><a href="mailto:moussisidahmed0@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sid-ahmed-moussi-722b61238/"><i class="fa fa-linkedin-square"></i></i></a></li>
+      </ul>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="Profil.html">Profil</a></li>
+          <li><a href="certification.html">Certifications</a></li>
+          <li><a href="parcours.html">Mon parcours</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="Veille.html">Veille technologique</a></li>
+          
+          
+    
+        </ul>
+      </div>
+      <div class="chevron">
+        <ul>
+            
+            <li><a href=""><i class="fa fa-chevron-down"></i></a></li>
+            
+        </ul>
+    </div>
+      <p>&copy;2023 <span>Moussi Sid-Ahmed</span></p>
+    </div>
+    </footer>
+</body>
+<script>
+  var menuhamb = document.querySelector('.menu-hamb');
+ var link = document.querySelector('.nav-links');
+ menuhamb.addEventListener('click', () => {
+   link.classList.toggle('mobile');
+ })
+ </script>
+</html> 

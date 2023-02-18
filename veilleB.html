@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang ="fr">
+     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ProGen</title>
+        <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" type = text/css href="veilleB.css">
+ 
+</head>
+<body>
+  
+    <nav class="navbar">
+      <a href="Profil.html" class="logo">PORTFOLIO</a>
+        <div class="nav-links">
+          <ul>
+            <li class="active"><a href="index.html">Accueil</a></li>
+            <li><a href="Profil.html">Profil</a></li>
+            <li><a href="certification.html">Certifications</a></li>
+            <li><a href="parcours.html">Mon Parcours</a></li>
+            <li> <a href="projets.html">Mes Projets</a></li>
+            <li><a href="Veille.html">Veille Technologique</a></li>
+            
+          </ul>
+        </div>
+        <img src="./images/menu-btn.png" alt="menu hamb" class="menu-hamb">
+      
+      </nav>
+
+     
+  <section class ="images">
+  
+      <div class="image-card">
+          <div class="image-left">
+              <img alt="" src="./images/VeilleT/prot.png">
+              </div>
+          <div class="image-right">    
+              <h1>L'IA revolutionne la création de protéines grâce au projet Salesforce</h1>
+              <p>Salesforce Research a lancé un projet visant à utiliser l'apprentissage automatique pour produire des protéines synthétiques plus rapidement et efficacement. Le modèle d'IA appelé "ProGen" est basé sur le système de génération de langage automatique "IA Générative". Ce modèle est entraîné à comprendre les propriétés structurelles et fonctionnelles des protéines afin de générer de nouvelles protéines de manière autonome. Des tests en laboratoire ont été effectués sur les protéines créées avec succès par le modèle IA.
+                 Ce projet marque une avancée prometteuse dans l'utilisation de l'IA pour la génération de protéines.
+              </p>
+					<br><br>
+					<span>Source:<a href="https://www.netcost-security.fr/actualites/142041/le-projet-salesforce-cree-des-proteines-avec-lia-generative/">https://www.netcost-security.fr/actualites/142041/le-projet-salesforce-cree-des-proteines-avec-lia-generative/</a></span>
+				</div>
+          </div>
+      </div>
+      
+      
+      
+    
+  
+      
+  </section>
+  </body>
+  <script>
+    var menuhamb = document.querySelector('.menu-hamb');
+   var link = document.querySelector('.nav-links');
+   menuhamb.addEventListener('click', () => {
+     link.classList.toggle('mobile');
+   })
+   </script>
+  </html> 

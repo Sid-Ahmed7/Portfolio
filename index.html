@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang ="fr">
+     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Accueil</title>
+    <link rel="stylesheet" type = text/css href="style1.css">
+   
+</head>
+<body>
+    <section class="home">
+        <div class="container">
+           <div class="row">
+               <div class="home-text">
+                    <h1>Bienvenue sur mon Portfolio </h1>
+                    <p class="animate-text">
+                       <span>Vous y trouverez</span>
+                       <span>l'ensemble de mes compétences</span>
+                       <span>mes réalisations</span>
+                    </p>
+                    <a href ="Profil.html"  class="enter-button">En savoir plus</a>
+               </div>
+           </div>
+         
+        </div>
+    </section>
+   
+   
+   
+   <script>
+            const txts=document.querySelector(".animate-text").children,
+                  txtsLen=txts.length;
+              let index=0;
+             const textInTimer=3000,
+                   textOutTimer=2800;
+   
+            function animateText() {
+               for(let i=0; i<txtsLen; i++){
+                 txts[i].classList.remove("text-in","text-out");  
+               }
+               txts[index].classList.add("text-in");
+   
+               setTimeout(function(){
+                   txts[index].classList.add("text-out");              
+               },textOutTimer)
+   
+               setTimeout(function(){
+   
+                 if(index == txtsLen-1){
+                     index=0;
+                   }
+                  else{
+                      index++;
+                    }
+                   animateText();
+               },textInTimer); 
+            }
+            
+            window.onload=animateText;
+      
+   </script>
+   
+   </body>
+   </html>
