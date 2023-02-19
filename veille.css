@@ -111,13 +111,11 @@ font-weight: bold;
 #about {
   padding: 20px;
 } 
-#about p {
+section #about {
   text-align: justify;
-  margin-left: 120px;
-  margin-right: 120px;
-  line-height: 1.3em;
- 
-}
+  padding: 41px;
+  line-height: 1.1em;
+} 
 .row {
   padding-top: 2em;
 }
@@ -378,6 +376,13 @@ color: aqua;
   header h1 {
     font-size: 45px;
   }
+  header p {
+    font-size: 20px;
+  }
+  section {
+    
+    padding: 27px;
+  } 
  
 }
 @media(max-width:691px ){
