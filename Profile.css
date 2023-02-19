@@ -101,11 +101,16 @@ header p {
   margin: 0;
   text-align: center;
 }
-section {
-  text-align: justify;
-  padding: 41px;
-  line-height: 1.1em;
+#about {
+  padding: 20px;
 } 
+#about p {
+  text-align: justify;
+  margin-left: 120px;
+  margin-right: 120px;
+  line-height: 1.3em;
+  
+}
  
 
   .timeline{
@@ -433,7 +438,11 @@ color: aqua;
    align-items: center;
   }
   
- 
+  #about p {
+   
+    margin-left: 0;
+    margin-right: 0;
+  }
  
 
   .navbar .nav-links ul li {
@@ -453,14 +462,29 @@ color: aqua;
   header p {
     font-size: 20px;
   }
-  section {
-    
-    padding: 27px;
-  } 
+  #about p {
+font-size: 16px;
+font-family: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .image-right p{
     text-align: justify;
     margin-left: 10px;
   
+  }
+  .timeline_component{
+    margin: 0 20px 20px 8px;
+  }
+  .timeline_component-bg{
+    padding: 0.4em;
+  }
+  .timeline_title{
+    font-size: 1em;
+  }
+  .timeline_paragraphe{
+    font-family: serif;
+    display: contents;
   }
   .image-right h1 {
     font-size: 1em;

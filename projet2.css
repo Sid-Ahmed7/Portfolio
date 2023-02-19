@@ -416,10 +416,11 @@ color: aqua;
     grid-template-columns: 1fr;
   }
   #about p {
-   
-    margin-left: 0;
-    margin-right: 0;
-  }
+    font-size: 16px;
+    font-family: initial;
+        margin-left: 0;
+        margin-right: 0;
+      }
   .image-right p{
     text-align: justify;
     font-size: 15px;

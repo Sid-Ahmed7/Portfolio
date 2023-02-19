@@ -398,10 +398,11 @@ color: aqua;
     font-size: 20px;
   }
   #about p {
-   
-    margin-left: 0;
-    margin-right: 0;
-  }
+    font-size: 16px;
+    font-family: initial;
+        margin-left: 0;
+        margin-right: 0;
+      }
 }
 @media(max-width:691px ){
   .footer-nav ul li a{
