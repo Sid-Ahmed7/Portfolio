@@ -182,7 +182,7 @@ line-height: 1.3em;
    .image-right p{
      text-align: justify;
      font-size: 15px;
-     margin-right: 8px;
+     margin-right: -13px;
     
    }
   .images .image-card .image-left img {

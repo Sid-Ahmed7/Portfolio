@@ -110,7 +110,7 @@ line-height: 1.3em;
     padding: 30px;
   }
   .navbar a{
-    
+    color: black;
     text-decoration: none;
    
   }
@@ -177,13 +177,13 @@ line-height: 1.3em;
     margin-left: 12px;
   }
     .image-right h1{
-
+      font-size: 19px;
    line-height: 1.2em;
   }
   .image-right p{
     text-align: justify;
     font-size: 15px;
-    margin-right: 16px;
+    margin-right: 8px;
    
   }
   .images .image-card .image-left img {
