@@ -111,11 +111,13 @@ font-weight: bold;
 #about {
   padding: 20px;
 } 
-section #about {
+#about p {
   text-align: justify;
-  padding: 41px;
-  line-height: 1.1em;
-} 
+  margin-left: 120px;
+  margin-right: 120px;
+  line-height: 1.3em;
+  
+}
 .row {
   padding-top: 2em;
 }
@@ -327,7 +329,11 @@ color: aqua;
 
 
 @media screen and (max-width:900px) {
-       
+  #about p {
+   
+    margin-left: 0;
+    margin-right: 0;
+  }    
   .navbar{
     padding: 30px;
   }
@@ -379,10 +385,12 @@ color: aqua;
   header p {
     font-size: 20px;
   }
-  section {
-    
-    padding: 27px;
-  } 
+  #about p {
+    font-size: 16px;
+    font-family: initial;
+        margin-left: 0;
+        margin-right: 0;
+      }
  
 }
 @media(max-width:691px ){
